@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webpack-dev-server > spdy > spdy-transport > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - heimdalljs-logger > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - silent-error > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - stylus > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > portfinder > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > sockjs-client > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > spdy > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > compression > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > serve-index > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > express > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > express > send > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - portfinder > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > express > finalhandler > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > express > serve-static > send > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2019-06-07T08:51:29.497Z'
+  'npm:extend:20180424':
+    - less > request > extend:
+        patched: '2019-06-07T08:51:29.497Z'
+  'npm:hoek:20180212':
+    - less > request > hawk > hoek:
+        patched: '2019-06-07T08:51:29.497Z'
+    - less > request > hawk > boom > hoek:
+        patched: '2019-06-07T08:51:29.497Z'
+    - less > request > hawk > sntp > hoek:
+        patched: '2019-06-07T08:51:29.497Z'
+    - less > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-07T08:51:29.497Z'
+  'npm:mime:20170907':
+    - webpack-dev-server > express > send > mime:
+        patched: '2019-06-07T08:51:29.497Z'
+    - webpack-dev-server > express > serve-static > send > mime:
+        patched: '2019-06-07T08:51:29.497Z'
+  'npm:stringstream:20180511':
+    - less > request > stringstream:
+        patched: '2019-06-07T08:51:29.497Z'
+  'npm:tough-cookie:20170905':
+    - less > request > tough-cookie:
+        patched: '2019-06-07T08:51:29.497Z'
