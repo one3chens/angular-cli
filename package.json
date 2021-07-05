@@ -24,7 +24,9 @@
     "eslint": "eslint .",
     "tslint": "tslint \"**/*.ts\" -c tslint.json -e \"**/config/schema.d.ts\" -e \"**/tests/**\" -e \"**/blueprints/*/files/**/*.ts\" -e \"node_modules/**\" -e \"tmp/**\" -e \"dist/**\"",
     "lint": "npm-run-all -c eslint tslint",
-    "tool": "node scripts/run-tool.js"
+    "tool": "node scripts/run-tool.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -99,7 +101,8 @@
     "webpack-dev-middleware": "~1.12.0",
     "webpack-dev-server": "~2.7.1",
     "webpack-merge": "^4.1.0",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "snyk": "^1.653.0"
   },
   "devDependencies": {
     "@angular/compiler": "^4.0.0",
@@ -145,5 +148,6 @@
   },
   "optionalDependencies": {
     "node-sass": "^4.3.0"
-  }
+  },
+  "snyk": true
 }
